@@ -9,6 +9,16 @@ body {
 	width: 30%;
 }
 
+input {
+	text-align: center;
+	display: inline;
+}
+
+p {
+	display: inline-block;
+	padding-right: 10px;
+}
+
 #start-button {
 	margin-top: 20px;
 	width: 20%;
