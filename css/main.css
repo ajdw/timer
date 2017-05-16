@@ -3,12 +3,13 @@ body {
 }
 
 #input-container {
+	padding: 25px 25px;
 	display: inline-block;
 	background-color: pink;
-	width: 50%;
+	width: 30%;
 }
 
 #start-button {
 	margin-top: 20px;
-	width: 10%;
+	width: 20%;
 }
