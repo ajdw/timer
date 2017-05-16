@@ -2,14 +2,23 @@
 <head>
 	<title>Timer</title>
 	<link rel = "stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
-<input type = "number" id = "seconds" placeholder = "seconds"></input>
-<br>
-<input type = "number" id = "minutes" placeholder = "minutes"></input>
-<br>
-<input type = "number" id = "hours" placeholder = "hours"></input>
+
+<h1>Timer</h1>
+<div class = "fluid-row" id = "input-container">
+	<input type = "number" id = "seconds" placeholder = "seconds"></input>
+	<br>
+	<input type = "number" id = "minutes" placeholder = "minutes"></input>
+	<br>
+	<input type = "number" id = "hours" placeholder = "hours"></input>
+	<br>
+	<button class="btn btn-success" id = "start-button">Start</button>
+</div>
+
 
 <script src = "js/main.js"></script>
 </body>

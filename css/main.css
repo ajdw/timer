@@ -1,0 +1,14 @@
+body {
+	text-align: center;
+}
+
+#input-container {
+	display: inline-block;
+	background-color: pink;
+	width: 50%;
+}
+
+#start-button {
+	margin-top: 20px;
+	width: 10%;
+}
