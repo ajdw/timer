@@ -6,7 +6,6 @@ body {
 	padding: 25px 25px;
 	display: inline-block;
 	background-color: pink;
-	width: 30%;
 }
 
 input {
@@ -17,9 +16,10 @@ input {
 p {
 	display: inline-block;
 	padding-right: 10px;
+	font-weight: bold;
+	font-size: 20px;
 }
 
 #start-button {
 	margin-top: 20px;
-	width: 20%;
 }
