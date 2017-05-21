@@ -7,8 +7,6 @@ function startItUp(){
     var countdownTimer = setInterval('secondPassed()', 1000);
 }
 
-	var numIntiate = 1;
-
 function secondPassed() {
 
     var minutes = Math.round((seconds - 30)/60);
